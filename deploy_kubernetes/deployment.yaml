@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: trendz-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: trendz
+  template:
+    metadata:
+      labels:
+        app: trendz
+    spec:
+      containers:
+        - name: trendz-container
+          image: "put image with apt tag here after pushing to docker hub"
+          ports:
+            - containerPort: 5000
+          volumeMounts:
+            - name: spotify-secrets-volume
+              mountPath: /app/secrets  
+              readOnly: true
+      volumes:
+        - name: spotify-secrets-volume
+          secret:
+            secretName: spotify-secrets

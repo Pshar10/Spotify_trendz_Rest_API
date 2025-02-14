@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: trendz-service
+  namespace: default
+spec:
+  selector:
+    app: trendz
+  ports:
+    - protocol: TCP
+      port: 80  
+      targetPort: 5000 
+      nodePort: 30195
+  type: NodePort

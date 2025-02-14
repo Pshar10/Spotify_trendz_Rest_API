@@ -1,0 +1,17 @@
+version: "3.7"
+services:
+  flask-app:
+    build:
+      context: .
+    image: trendz:latest
+    ports:
+      - "8000:5000"
+    secrets:
+      - SPOTIPY_CLIENT_ID
+      - SPOTIPY_CLIENT_SECRET
+
+secrets:
+  SPOTIPY_CLIENT_ID:
+    external: true
+  SPOTIPY_CLIENT_SECRET:
+    external: true
