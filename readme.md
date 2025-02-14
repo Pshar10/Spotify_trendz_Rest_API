@@ -206,7 +206,7 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 👤 **Pranav Sharma**  
 📧 [pshar416@gmail.com](mailto:pshar416@gmail.com)  
-🔗 [LinkedIn](https://www.linkedin.com/in/pranav-sharma)  
+🔗 [LinkedIn](https://www.linkedin.com/in/pranav1010/)  
 
 For any queries, feel free to **raise an issue** in the repository! 🚀
 
