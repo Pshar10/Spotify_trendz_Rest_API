@@ -6,13 +6,14 @@
 ## Screenshots
 
 ### 📌 EKS Cluster with `eksctl`
-![EKS Cluster](ekctl.png)
+![EKS Cluster](./ekctl.png)
 
 ### 🌍 Select Region
-![Select Region](select_region.png)
+![Select Region](./select_region.png)
 
 ### 🎧 Listen to Songs
-![Listen Song](listen_song.png)
+![Listen Song](./listen_song.png)
+
 
 ---
 
