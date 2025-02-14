@@ -3,6 +3,18 @@
 **Spotify Trendz** is a Flask-based REST API application that integrates with the **Spotify API** to provide music recommendations based on user preferences. This project demonstrates **DevOps best practices** by utilizing **Terraform for infrastructure provisioning, Docker Swarm for container orchestration, Kubernetes for fault tolerance, and monitoring with Prometheus and Grafana**.
 
 ---
+## Screenshots
+
+### 📌 EKS Cluster with `eksctl`
+![EKS Cluster](ekctl.png)
+
+### 🌍 Select Region
+![Select Region](select_region.png)
+
+### 🎧 Listen to Songs
+![Listen Song](listen_song.png)
+
+---
 
 ## **Project Overview**
 
