@@ -6,13 +6,14 @@
 ## Screenshots
 
 ### 📌 EKS Cluster with `eksctl`
-![EKS Cluster](https://raw.githubusercontent.com/Pshar10/Spotify_trendz_Rest_API/main/ekctl.png)
+![EKS Cluster](https://raw.githubusercontent.com/Pshar10/Spotify_trendz_Rest_API/main/eksctl.png)
 
 ### 🌍 Select Region
 ![Select Region](https://raw.githubusercontent.com/Pshar10/Spotify_trendz_Rest_API/main/select_region.png)
 
 ### 🎧 Listen to Songs
 ![Listen Song](https://raw.githubusercontent.com/Pshar10/Spotify_trendz_Rest_API/main/listen_song.png)
+
 
 
 ---
